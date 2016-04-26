@@ -1,0 +1,28 @@
+body {
+    color: #A3A3A3;
+    font-family: Helvetica, Sans-Serif;
+    text-align: center;
+}
+
+
+h1 {
+    color: #256687;
+    font-size: 40px;
+}
+
+
+#slogan {
+		font-style: italic;
+}
+
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+
+#services {
+	font-size: 18px;
+	color: #256687;
+}
