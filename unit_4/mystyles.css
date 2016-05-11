@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+
+*,
+*:before,
+*:after {
+        margin: 0;
+        padding: 0;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+
+body {
+    color: black;
+    font-family: Helvetica, Sans-Serif;
+    text-align: center;
+}
+
+
+h1 {
+    color: #2A6B8B;
+    font-size: 60px;
+    font-family: 'Fjalla One', Sans-Serif;
+}
+
+
+.image { 
+   position: relative; 
+   width: 100%;
+}
+
+
+h2 { 
+    font-family: 'Fjalla One', Sans-Serif;
+    font-size: 50px;
+    color: white;
+    position: absolute; 
+    top: 140px; 
+    left: 0; 
+    width: 100%; 
+}
+
+
+#floattext { 
+    font-family:  arial, Sans-Serif;
+    font-size: 18px;
+    color: white;
+    position: absolute; 
+    top: 250px; 
+    left: 0; 
+    width: 100%; 
+    line-height: 1.5em;
+}
+
+
+
+#services {
+    font-family: 'Fjalla One', Sans-Serif;
+	font-size: 35px;
+	color: black;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #2A6B8B;
+
+}
+
+h3 { 
+    font-family: 'Fjalla One', Sans-Serif;
+    font-size: 20px;
+    color: #8A663A;
+    top: 140px; 
+    left: 0; 
+    width: 100%; 
+}
+
+
+div.bubbleimages img
+            {
+                float: center;
+            }
