@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
 
-
 *,
 *:before,
 *:after {
@@ -11,8 +10,6 @@
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
 }
-
-
 
 
 body {
@@ -79,7 +76,7 @@ h3 {
 }
 
 
-div.bubbleimages img
+.bubbleimages
             {
                 float: center;
                 margin-top: 30px;
