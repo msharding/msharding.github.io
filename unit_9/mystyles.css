@@ -16,8 +16,28 @@ body, html {
     color: black;
     font-family: Helvetica, Sans-Serif;
     text-align: center;
-    margin:0;
-	padding:0;
+
+}
+
+a   {
+    text-decoration: none;
+    color:#2A6B8B ;
+}
+
+a:hover {
+    color: #E6E7E8;
+}
+
+body	{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+p {
+    font-family: Helvetica, Sans-Serif;
+    line-height: 1.3em;
+    text-align: left;
 	height:100%;
 }
 
@@ -33,6 +53,15 @@ nav ul {
     background-color: #2A6B8B;
     text-align: center;
 }
+
+
+h2	{
+	color: #2A6B8B;
+    font-size: 20px;
+    font-family: 'Fjalla One', Sans-Serif;
+    padding-bottom: 5px;
+}
+
 
 nav li {
     display: inline;
@@ -73,6 +102,8 @@ h1 {
 }
 
 .text {
+	padding-left: 70px;
+	padding-right: 70px;
 	padding-left: 60px;
 	padding-right: 60px;
     line-height: 1.1em;
@@ -95,9 +126,11 @@ p {
     margin-left: 15px;
 }
 
+
 #wrapper {
 	min-height:100%;
 	position:relative;
+	flex: 1;
 }
 
 .button	{
@@ -139,7 +172,6 @@ p {
 
 #slogan {
     font-family: 'Fjalla One', Sans-Serif;
-    font-size: 45px;
     color: black;
     margin-top: 30px;
     color: white;
@@ -158,6 +190,7 @@ p {
     font-family: 'Fjalla One', Sans-Serif;
 	font-size: 35px;
 	color: black;
+    margin-top: 15px;
     margin-top: 30px;
     margin-bottom: 15px;
     color: #2A6B8B;
@@ -178,6 +211,9 @@ p {
 }
 
 #left {
+    padding: 1%;
+    float: left;
+    width: 50%;
     padding: 1% 1% 10% 1%;
     float: left;
     width: 60%;
@@ -191,9 +227,18 @@ p {
     padding: 2%;
     margin: 2%;
     float: right;   
-    width: 30%;
+    width: 40%;
     text-align: left;
 }
+
+#location {
+    padding: 1%;
+    float: left;
+    width: 50%;
+    margin: 2%;
+    text-align: left;
+}
+
 
 
 hr  {
@@ -202,17 +247,27 @@ hr  {
 }
 
 
-.clearfix: after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
+
 
 #content {
-	padding-bottom:100px; /* Height of the footer element */
+	padding-bottom:20px;
+}
+
+
+footer {
+	background: #f1f2f2;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    font-family:  arial, Sans-Serif;
+    font-size: 12px;
+}
+
+#about {
+    padding-top: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+	padding-bottom:10px;
 }
 
 
@@ -231,8 +286,17 @@ hr  {
 
 
 @media screen and (max-width:680px) {
-  nav {
+
+nav {
     float: none;
+    display: block;
+    width: 100%;
+  }
+
+ #header	{
+	display: inline;
+    align-content: center;
+}
     display: inline-block;
   }
 
@@ -255,11 +319,6 @@ hr  {
   	display: inline-block;
   }
 
-  .image	{
-  	width: auto;
-  	height: 290px;
-  }
-
   #left {
     padding: 1% 1% 10% 1%;
     float: none;
@@ -276,6 +335,11 @@ hr  {
     float: none;   
 	text-align: center;
     width: 90%;
+}
+
+#location   {
+    width: 100%;
+    text-align: left;
 }
 
 
